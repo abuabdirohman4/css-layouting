@@ -8,15 +8,18 @@
 .satu, .dua, .tiga {
     height: 100px;
     width: 100px;
+    border: 1px solid black;
 }
 
 .satu {
     background-color: salmon;
-    position: relative; /* The Default is relative, one dimension */
+    position: static; /* * The Default is static, one dimension */
 }
 
 .dua {
     background-color: limegreen;
+    /* position: relative; */
+
 }
 
 .tiga {

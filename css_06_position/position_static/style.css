@@ -8,6 +8,7 @@
 .satu, .dua, .tiga {
     height: 100px;
     width: 100px;
+    border: 1px solid black;
 }
 
 .satu {
@@ -16,9 +17,15 @@
 
 .dua {
     background-color: limegreen;
-    float: left;
+
+    /* * element be in another dimension */
+    position: relative; 
+    
+    /* ? to uses this properties you must use position (except static) properties first */
+    top : 10px; 
 }
 
 .tiga {
     background-color: lightskyblue;
+    width: 110px;
 }
