@@ -12,15 +12,13 @@
 
 .satu {
     background-color: salmon;
+    position: relative; /* The Default is relative, one dimension */
 }
 
 .dua {
     background-color: limegreen;
-    float: left;
 }
 
 .tiga {
     background-color: lightskyblue;
 }
-
-/* Maju 1 dimensi */
