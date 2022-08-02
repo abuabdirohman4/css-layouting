@@ -1,2 +1,2 @@
-# CSS-Layouting
+# CSS Layouting
 Repo untuk belajar CSS Layouting
